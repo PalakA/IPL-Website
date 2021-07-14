@@ -1,0 +1,84 @@
+a.a1:link,a.a1:visited
+{
+background-color:#FFFFFF;
+width:60px;
+font-size:24;
+font-weight:bold;
+color:#003366;
+text-decoration:none;
+}
+a.a1:hover,a.a1:active
+{
+color:#003366;
+}
+a.a2:link,a.a2:visited
+{
+background-color:#FFFFFF;
+width:60px;
+font-size:24;
+font-weight:bold;
+color:#006699;
+text-decoration:none;
+}
+a.a2:hover,a.a2:active
+{
+color:#003366;
+}
+p
+{
+font-size:18;
+font-weight:bold;
+}
+
+
+.dm1 {
+    font: 19px arial;
+}
+.dm1 .item1,
+.dm1 .item1:hover,
+.dm1 .item1-active,
+.dm1 .item1-active:hover {
+    padding: 6px 16px 8px 16px;
+    border: 1px #003366;
+    border-style: solid none solid none;
+    text-decoration: none;
+    display: block;
+    position: relative;
+}
+.dm1 .item1 {
+    background: #333366;
+    color: #ffffff;
+}
+.dm1 .item1:hover,
+.dm1 .item1-active,
+.dm1 .item1-active:hover {
+    background: #336699;
+    color: #ffffff;
+}
+.dm1 .item2,
+.dm1 .item2:hover {
+    padding: 3px 8px 4px 8px;
+    text-decoration: none;
+    display: block;
+    white-space: nowrap;
+}
+.dm1 .item2 {
+    background: #336699;
+    color: #ffffff;
+}
+.dm1 .item2:hover {
+    background: #000066;
+    color: #ffffff;
+}
+.dm1 .section {
+    border: 1px #003366;
+    border-style: solid solid solid solid;
+    position: absolute;
+    visibility: hidden;
+    /*z-index: -1;*/
+    white-space: nowrap;
+}
+.dm1 .left, .dm1 .left:hover { border-style: solid none solid solid; }
+.dm1 .right, .dm1 .right:hover { border-style: solid solid solid none; }
+ 
+* html .dm1 td { position: relative; } /* ie 5.0 fix */
